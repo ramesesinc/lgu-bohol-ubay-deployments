@@ -45,5 +45,3 @@ services:
     links:
       - gdx-mail-server
       - gdx-proxy-server
-    volumes:
-      - ./connections:/apps/server/apps/gdx/connections
