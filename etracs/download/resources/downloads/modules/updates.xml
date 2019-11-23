@@ -83,11 +83,13 @@ socketio.host=192.168.254.123:7080
 	<module file="rameses-gov-etracs-bpls-reports.jar" version="2.55"/>
 
 	<!-- rptis -->
-	<module file="rameses-gov-etracs-rptis-landtax.jar" version="2.91"/>
-	<module file="rameses-gov-etracs-rptis-landtax-report.jar" version="3.3"/>
-	<module file="rameses-gov-etracs-rptis.jar" version="2.4"/>
-	<module file="rameses-gov-etracs-rptis-report.jar" version="2.2"/>
-	<module file="rameses-gov-etracs-signatory-template.jar" version="2.1"/>
+	<module file="rameses-gov-etracs-rptis-municipality.jar" version="2.55"/>
+	<module file="rameses-gov-etracs-rptis-landtax.jar" version="2.55"/>
+	<module file="rameses-gov-etracs-rptis-landtax-report.jar" version="2.55"/>
+	<module file="rameses-gov-etracs-rptis.jar" version="2.55"/>
+	<module file="rameses-gov-etracs-rptis-report.jar" version="2.55"/>
+	<module file="rameses-gov-etracs-signatory-template.jar" version="2.55"/>
+	<module file="rameses-gov-etracs-rptis-transmittal.jar" version="2.55"/>
 
 	<!-- plugins -->	
 	<module file="plugins/rameses-queueing.jar" version="2.56"/>
