@@ -1,10 +1,11 @@
 #!/bin/sh
+docker system prune -f
+
 cd ~/docker/etracs
 docker-compose up -d
-sleep 10
+sleep 5
 
 cd ~/docker/gdx-client
 docker-compose up -d
 
-cd ~/docker
-
+cd ~
