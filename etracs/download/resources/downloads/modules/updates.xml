@@ -1,10 +1,10 @@
 <app>
 <env>
 app.title=ETRACS 2.5 build 05 20191123 (MUNICIPALITY OF UBAY)
-app.host=192.168.254.123:8070
+app.host=192.168.254.2:8070
 app.cluster=osiris3
 app.context=etracs25
-app.help=http://192.168.254.123:8080/help
+app.help=http://192.168.254.2:8080/help
 app.loader=com.rameses.osiris2.client.OsirisAppLoader
 readTimeout=300000
 connectionTimeout=5000
@@ -12,12 +12,12 @@ connectionTimeout=5000
 app.custom=ubay
 report.custom=ubay
 
-ws.host=192.168.254.123:8060
+ws.host=192.168.254.2:8060
 
-entity.app.host=192.168.254.123:8070
+entity.app.host=192.168.254.2:8070
 entity.app.context=etracs25
 
-socketio.host=192.168.254.123:7080
+socketio.host=192.168.254.2:7080
 
 </env>
 <modules> 
