@@ -1,6 +1,6 @@
 #!/bin/sh
 RUN_DIR=`pwd`
-cd ../system/notification
+cd ../appserver/epayment
 docker-compose down
 docker system prune -f
 sleep 1

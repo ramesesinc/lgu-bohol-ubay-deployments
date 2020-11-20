@@ -1,6 +1,6 @@
 #!/bin/sh
 RUN_DIR=`pwd`
-cd ../system/notification
+cd ../system/download
 docker-compose down
 docker system prune -f
 sleep 1
