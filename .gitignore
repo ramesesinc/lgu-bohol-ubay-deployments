@@ -1,5 +1,5 @@
-._.DS_Store
 ._.*
+._.DS_Store
 .DS_Store
 .osiris_pid
 .shutdown_pid
@@ -8,3 +8,4 @@ Thumbs.db
 updates-dev.xml
 docker-compose-test.yml
 *.mp4
+/system/gdx-client/test
