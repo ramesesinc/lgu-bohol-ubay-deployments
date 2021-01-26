@@ -13,5 +13,3 @@ cd $BASE_DIR/system/download && docker-compose down
 cd $BASE_DIR/system/queue && docker-compose down
 
 cd $RUN_DIR
-
-docker system prune -f

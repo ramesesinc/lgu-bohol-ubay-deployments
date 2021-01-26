@@ -3,8 +3,6 @@ RUN_DIR=`pwd`
 cd ..
 BASE_DIR=`pwd`
 
-docker system prune -f
-
 cd $BASE_DIR/system/notification && docker-compose up -d
 
 cd $BASE_DIR/system/download && docker-compose up -d
